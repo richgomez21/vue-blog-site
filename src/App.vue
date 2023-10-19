@@ -1,9 +1,10 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link>&nbsp;
-    <router-link to="/blog">Blog</router-link>
+    <router-link to="/">HOME</router-link>&nbsp;
+    <router-link to="/blog">BLOG</router-link>
   </nav>
   <router-view></router-view>
+  <footer>FOOT</footer>
 </template>
 
 <script>
