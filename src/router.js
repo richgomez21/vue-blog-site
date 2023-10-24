@@ -13,7 +13,7 @@ const routes = [
         name: "blog-post",
         props: true
     },
-    { path: '/:catchAll(.*)', component: NotFoundView }
+    { path: '/:catchAll(.*)', component: NotFoundView, name: "not-found" }
 ];
 
 const router = createRouter({

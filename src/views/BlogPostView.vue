@@ -21,7 +21,9 @@ export default {
     mounted(){
         getPostById(this.postId)
             .then(resp => this.post = resp)
-            .catch(err => console.log(err))
+            .catch(() => {
+                this.$router.push({path: "/404"})
+            })
     }
 }
 </script>
